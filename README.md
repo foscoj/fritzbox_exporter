@@ -24,7 +24,7 @@ This exporter is known to work with the following models:
 ## Building
 
 ```bash
-go get github.com/mxschmitt/fritzbox_exporter
+go get github.com/mxschmitt/fritzbox_exporter/cmd/exporter
 cd $GOPATH/src/github.com/mxschmitt/fritzbox_exporter/cmd/exporter
 go get ./...
 go build
